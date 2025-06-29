@@ -32,3 +32,17 @@ This mini project lets you:
    ```bash
    git clone https://github.com/your-username/codegen-ai-assistant.git
    cd codegen-ai-assistant
+## Create virtual environment(optional but good to create)
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+## Install dependencies
+python -m pip install torch transformers streamlit pandas seaborn matplotlib openpyxl
+
+## Project Structure
+.
+├── app.py          # Main Streamlit app
+├── README.md       # Project README
+├── requirements.txt (optional)
+└── /venv           # Virtual environment (optional)
+## Run the app
+streamlit run app.py
