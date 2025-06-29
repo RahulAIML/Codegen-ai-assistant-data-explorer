@@ -39,10 +39,13 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 python -m pip install torch transformers streamlit pandas seaborn matplotlib openpyxl
 
 ## Project Structure
-.
-├── app.py          # Main Streamlit app
-├── README.md       # Project README
-├── requirements.txt (optional)
-└── /venv           # Virtual environment (optional)
+```bash
+   .
+   ├── app.py          # Main Streamlit app
+   ├── README.md       # Project README
+   ├── requirements.txt (optional)
+   └── /venv           # Virtual environment (optional)
+```
 ## Run the app
+```bash
 streamlit run app.py
